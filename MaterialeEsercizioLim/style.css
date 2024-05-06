@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box{
+    max-width: 80%;
+    background-color: rgba(1, 1, 1, 0.619);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+#inside_box{
+    max-width: 80%;
+    margin: auto;
+    padding: 5%;
+}
+.logo{
+    margin: auto;
+}
+#logo_img{
+    display: block;
+    max-width: 20%;
+    margin: auto;
+}
+#logo_text{
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    color: rgb(1, 255, 1);
+}
+nav{
+    background-color: rgb(1, 255, 1);
+    margin: auto;
+   
+}
+.button{
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+.button >input{
+    margin: auto;
+    display: inline-block;
+}
+.el{
+    color: white;
+    margin-top: 3%;
+}
+span{
+    font-size: 12px;
+}
+.green_bar{
+    background-color: rgb(4, 179, 4);
+    max-width: 45%;
+    height: 20px;
+    border-radius: 3px;
+}
+.yellow_bar{
+    background-color: rgb(228, 167, 14);
+    max-width: 30%;
+    height: 20px;
+    border-radius: 3px;
+}
+.red_bar{
+    background-color: rgb(222, 14, 52);
+    max-width: 15%;
+    height: 20px;
+    border-radius: 3px;
+}
